@@ -22,10 +22,10 @@ Next, we reduced data dimensions using PCA (Principal Component Analysis).  Fina
 ## Results and Summary
 There are 532 tradable cryptocurrencies.  Out of the 4 classes, 2 of them comprise 6 cryptocurrencies; the remaining 526 fall into the other 2 classes.  
   
-This scatter plot shows mined coins on the x-axis and supply of coins on the y axis grouped by class:  
+This scatter plot grouped by class shows mined coins on the x-axis and supply of coins on the y axis:  
   
 ![Scatter Plot](/Images/scatter.png "Scatter Plot")  
   
 It is clear that this model does not do a great job of clustering because there is plenty of overlap between the two main classes.  
   
-Crypto is difficult to cluster given these features.  While it is valuable to try clustering using a different number of clusters, it is also advisable to see if there are other features available to use in a new model.
+Crypto is difficult to cluster given these features.  While it is valuable to try grouping using a different number of clusters, in this case, it is also advisable to see if there are other features available to use in a new model.
