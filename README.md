@@ -4,7 +4,7 @@ Finished Deliverables:
 ## Overview
 Given a provided cryptocurrency dataset, use different techniques to cluster crypto components and uncover patterns.
 ## Procedure
-First, preprocess the data.  In this case, we dropped unneccessary columns, dropped currencies that aren't trading, changed data types, and only kept coins that have had mined coins.  For example, this is how to keep only the coins mined:  
+First, preprocess the data.  In this case, we dropped unnecessary columns, dropped currencies that aren't trading, changed data types, and only kept coins that have had mined coins.  For example, this is how to keep only the coins mined:  
   
 ```
 # Keep the rows where coins are mined.
